@@ -1,0 +1,272 @@
+@import url('https://fonts.google.com/specimen/Fraunces');
+.navbar{
+    background-color: #3EBFFF;
+}
+.ggg{
+    justify-content: end;
+}
+.header{
+    height: 80vh;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 80%;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+.nav-borde{
+    text-align: center;
+    width: 80px;
+    height: auto;
+    color: white;
+    text-decoration: none;
+}
+.nav-borde :hover{
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(168, 52%, 74%);
+    cursor: pointer;
+}
+.logo{
+    font-family: "Barlow";
+    font-weight: 800;
+    font-size: 33px;
+    color: white;
+    text-decoration: none;
+}
+.nna{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    padding: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.header p{
+    margin-top: -5%;
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+}
+.arrow{
+    margin-top: 22%;
+}
+.cont{
+    height: auto;
+}
+.imgs{
+    width: 100%;
+    height: auto;
+}
+.h{
+    font-size: 40px;
+    font-weight: 800;
+}
+.learn{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.learn .learn01:hover{
+    border-bottom: #FED500 3px solid;
+    cursor: pointer;
+}
+.learn .learn02:hover{
+    border-bottom: #FD6D62 3px solid;
+    cursor: pointer;
+}
+.texxt{
+    position: relative;
+}
+.description{
+    padding: 20%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(198, 62%, 26%);
+}
+.h2-t{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.testimonials{
+    height: auto;
+    padding: 0px;
+}
+.titleTestimonials{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.titleTestimonials h3{
+    color: hsl(232, 10%, 55%);
+}
+.testim{
+    width: 100%;
+    color: hsl(213, 9%, 39%);
+    font-weight: 600;
+}
+.exp{
+    color:hsl(210, 4%, 67%) ;
+}
+.test1{
+    padding: 1%;
+    height: auto;
+}
+.size{
+    height: 100%;
+    padding: 2%;
+    }
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.photo img{
+    border-radius: 50%;
+    width: 20%;
+}
+.testim{
+    text-align: center;
+}
+.footInfo{
+    text-align: center;
+    align-items: flex-end;
+}
+/*.img1{
+    background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+}
+*/
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    background-color:#8BD3C5;
+}
+.sub-footer{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.footer ul{
+    padding: 0px;
+}
+.footer ul li{
+    list-style: none;
+    margin: 10px;
+}
+.hh{
+    margin-bottom: 10%;
+    font-weight: 900;
+    font-size: 32px;
+    color: hsl(167, 40%, 24%);
+}
+.footer-text{
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 18px;
+    color: hsl(168, 34%, 41%);
+}
+.footer-text :hover{
+    color: white;
+    cursor: pointer;
+}
+.social{
+    margin-top: 10%;
+}
+.m-2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+/*Mobile*/
+@media screen and (max-width: 500px){
+    .header div p{
+        margin-top: -8%;
+        font-size: 4rem;
+        color: white;
+    }
+    .h{
+        margin-left: -25%;
+        width: 150%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 750;
+        margin-bottom: 20px;
+    }
+    .p-5{
+        width: 100%;
+    }
+     .p-5 p{
+        margin-left: -25%;
+        width: 150%;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .learn{
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 35px;
+    }
+    .imgs{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+    }
+    .description{
+        height: auto;
+        position: absolute;
+        top: 48%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1rem;
+        color: hsl(198, 62%, 26%);
+    }
+    .h2-t{
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    .size{
+        margin-bottom: 80px;
+        padding: 1%;
+    }
+    .footInfo{
+        margin-top: -20px;
+    }
+    .hh{
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    .sub-footer{
+        width: 80%;
+        padding: 10px;
+    }
+    .footer-text{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .gall{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .gall div{
+        width: 49%;
+        display: inline-block;
+    }
+    .imgss{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+        margin-bottom: 0px;
+    }
+}
+
